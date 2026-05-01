@@ -1,0 +1,19 @@
+{
+  "name": "snblocky",
+  "version": "1.0.0",
+  "description": "SNBlocky – Discord bot for Crossroads SMP",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.7.0",
+    "axios": "^1.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "minecraft-server-util": "^5.4.1"
+  }
+}
